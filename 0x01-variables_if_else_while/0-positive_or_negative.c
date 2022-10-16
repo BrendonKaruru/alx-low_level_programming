@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there*/
+/* betty style doc for function main goes there*/
 
 /**
 * main - prints if the number is positive or negative or 0
