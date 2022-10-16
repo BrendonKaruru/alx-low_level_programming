@@ -4,10 +4,12 @@
 
 /**
 * main - entry for last digit
-* return : always 0
+* Return : always 0
 */
-int main(void)
+
+	int main(void)
 {
+
 	int n;
 	int a;
 
@@ -19,11 +21,11 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
-	if (a == 0)
+	else if (a == 0)
 	{
 		printf("last digit of %d is %d and is 0\n", n, a);
 	}
-	if (a < 6 && a != 0)
+	else
 	{
 		printf("Last digit of %d is %d and is less than 6 not 0\n", n, a);
 	}
