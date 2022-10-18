@@ -2,7 +2,7 @@
 
 /**
  * main - printing the alphabet in lower cas 10 times
- * print_alphabet_x10 - printing alpbabet 10 times
+ * print_alphabet_x10: printing alpbabet 10 times
  */
 void print_alphabet_x10(void)
 {
