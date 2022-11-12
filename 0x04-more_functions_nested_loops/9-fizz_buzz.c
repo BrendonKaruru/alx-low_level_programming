@@ -2,8 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - print fizzbuzz
- * Return: Always 0
+ * main - prints the number from 1 to 100
+ * 3 multiples print Fizz insted of the number
+ * 5 multiple print Buzz insted of the number
+ * 3 & 5 multiples print FizzBuzz instead of the number
+ * Return: Always 0 (SUccess)
  */
 int main(void)
 {
@@ -15,15 +18,15 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i == 100)
-			printf("%s", b);
+			printf("%s ", b);
 		else if ((i % 3 == 0) && (i % 5 == 0))
-			printf("%s", fb);
+			printf("%s ", fb);
 		else if (i % 3 == 0)
-			printf("%s", f);
+			printf("%s ", f);
 		else if (i % 5 == 0)
-			printf("%s", b);
+			printf("%s ", b);
 		else
-			printf("%d", i);
+			printf("%d ", i);
 	}
 	printf("\n");
 	return (0);
